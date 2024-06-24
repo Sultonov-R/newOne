@@ -1,0 +1,141 @@
+.footer_wrapper {
+    width: 80%;
+    border-top: 2px solid lightgrey;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contacts h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.89px;
+    text-align: left;
+    color: #000000;
+}
+
+.contacts_info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detailed_contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_group {
+    display: flex;
+    gap: 35px;
+    ;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.directions {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_company ul,
+.about_legal ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_company ul li:first-child,
+.about_legal ul li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.89px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.about_company ul li,
+.about_legal ul li {
+    font-size: 17.78px;
+    font-weight: 400;
+    line-height: 26.67px;
+    text-align: left;
+    color: #000000;
+}
+
+.emails {
+    width: 25%;
+    background-color: #22883D;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    gap: 40px;
+}
+
+.email-btn {
+    display: flex;
+    align-items: center;
+}
+
+.emails h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.89px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 15px;
+
+}
+
+.emails input {
+    font-size: 12.22px;
+    font-weight: 400;
+    line-height: 18.33px;
+    text-align: left;
+    padding: 8px 9px;
+    background-color: #BBF2C9;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.emails button {
+    padding: 8px 4px;
+    background-color: #19622C;
+    font-size: 13.33px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.emails p {
+    font-size: 14.44px;
+    font-weight: 500;
+    line-height: 19.73px;
+    text-align: left;
+    color:#FFFFFF;
+    opacity: 50%;
+}

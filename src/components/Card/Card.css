@@ -1,0 +1,23 @@
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 290px;
+}
+
+.card-wrapper h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #161C2D;
+}
+.card-wrapper p{
+font-size: 17px;
+font-weight: 400;
+line-height: 29px;
+text-align: left;
+color:#161C2D;
+opacity: 0.7;
+}

@@ -1,0 +1,28 @@
+.button-class .active {
+    width: 200px;
+    background-color: #338A4A;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 19.27px;
+    font-weight: 500;
+    line-height: 23.5px;
+    text-align: center;
+    padding: 16px 25.7px 16px 25.7px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.button-class {
+    width: 200px;
+    background-color: #E8E8E8;
+    color: #1F1F1F;
+    border-radius: 5px;
+    font-size: 19.27px;
+    font-weight: 500;
+    line-height: 23.5px;
+    text-align: center;
+    padding: 16px 25.7px 16px 25.7px;
+    margin-top: 10px;
+    cursor: pointer;
+}

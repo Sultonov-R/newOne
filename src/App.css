@@ -1,0 +1,11 @@
+.wrapper{
+  width: 100%;
+  max-width: 1440px;
+ 
+}
+.container{
+  margin: 0 auto;
+}
+.first-section{
+  margin-top:0 auto;
+}

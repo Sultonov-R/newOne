@@ -1,0 +1,22 @@
+.partner_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.partners{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.partners_info{
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.partners_detailed{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}

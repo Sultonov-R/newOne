@@ -1,0 +1,50 @@
+.person_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 315px;
+    justify-content: space-between;
+}
+
+.person_wrapper img {
+    width: 72px;
+}
+
+.person_wrapper h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #161C2D;
+}
+
+.person_wrapper p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #161C2D;
+    opacity: 70%;
+}
+
+.person_wrapper h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #161C2D;
+}
+
+.person_wrapper span {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #161C2D;
+    opacity: 70%;
+}

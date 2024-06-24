@@ -1,0 +1,39 @@
+.automation_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E4F8EB;
+    margin-bottom: 20px;
+    padding: 40px 50px;
+}
+
+.automation_info {
+    width: 40%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;    
+}
+
+.automation_info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #161C2D;
+}
+
+.automation_info p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #161C2D;
+    opacity: 0.7;
+}
+
+.automation_image {
+    width: 45%;
+    margin: 40px auto;
+}

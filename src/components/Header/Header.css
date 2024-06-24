@@ -1,0 +1,36 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0px;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo, a, li{
+    cursor: pointer;
+}
+.nav-direction ul {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #161C2D;
+}
+
+.demo-btn a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.57px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #33894A;
+    padding: 10px 20px;
+    border-radius:8px;
+}
+.demo-btn a:hover{
+    background-color:#256c38;
+    transition: all 0.3s;
+}
