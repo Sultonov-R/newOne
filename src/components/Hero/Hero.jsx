@@ -4,7 +4,7 @@ import './Hero.css';
 
 function Hero() {
   return (
-    <div className='hero-wrapper'>
+    <div id='demo' className='hero-wrapper'>
         <div className='hero-top'>
             <div className='title-desc'>
                 <h1>O’quv markazlarini tizimlashtirish va avtomatlashtirish vaqti keldi</h1>

@@ -3,7 +3,7 @@ import "./Partners.css";
 
 function Partners() {
   return (
-    <div className="partner_wrapper">
+    <div id="partners" className="partner_wrapper">
       <div className="partners">
         <h2>Hamkorlarimiz</h2>
       </div>

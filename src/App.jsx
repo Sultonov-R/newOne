@@ -20,7 +20,9 @@ function App() {
       </div>
       <Automation />
       <div className="wrapper container">
+        <div className="stepss">
         <Steps />
+        </div>
         <Partners />
       </div>
       <Marketers />

@@ -5,7 +5,7 @@ import './AboutUs.css';
 
 function AboutUs() {
   return (
-    <div className="aboutUs_wrapper">
+    <div id="aboutUs" className="aboutUs_wrapper">
       <div className="overall_info">
         <div className="images-section">
           <div className="top-image">
@@ -19,7 +19,7 @@ function AboutUs() {
         <div className="our_info">
           <div className="our_title">
             <img width={26} src="../../component.png" alt="component" />
-            <span>Biz Haqimizda</span>
+            <span >Biz Haqimizda</span>
           </div>
           <div className="about_company">
             <h3>Kompaniyamiz haqida umumiy ma'lumot</h3>
