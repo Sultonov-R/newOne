@@ -1,5 +1,6 @@
 .button-class.active {
-    width: 200px;
+    max-width:200px;
+    width: 100%;
     background-color: #338A4A;
     color: #FFFFFF;
     border-radius: 5px;
@@ -16,7 +17,8 @@
     background-color: #236033;
 }
 .button-class {
-    width: 200px;
+    max-width:200px;
+    width: 100%;
     background-color: #E8E8E8;
     color: #1F1F1F;
     border-radius: 5px;
@@ -27,4 +29,19 @@
     padding: 16px 25.7px 16px 25.7px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+@media (max-width:1200px) {
+   .button-class{
+    max-width:180px;
+    width: 100%;
+    padding: 14px 23.7px 14px 23.7px;
+    margin-top: 8px;
+   }
+   .button-class.active{
+    max-width:180px;
+    width: 100%;
+    padding: 14px 23.7px 14px 23.7px;
+    margin-top: 8px;
+   }
 }

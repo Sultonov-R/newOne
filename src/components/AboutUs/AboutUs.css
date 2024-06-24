@@ -101,3 +101,52 @@ html {
     gap: 50px;
     justify-content: space-between;
 }
+
+@media (max-width:1340px) {
+    .aboutUs_wrapper{
+        width: 100%;
+    }
+    .top-image img{
+   max-width: 600px;
+   width: 100%;
+    }
+    .bottom-images img{
+        max-width: 300px;
+        width: 100%;
+    }
+    .btn-group {
+        gap: 10px;
+    }
+}
+@media (max-width:1200px) {
+    .bottom-images img{
+        width: 100%;
+        max-width: 250px;
+    }
+    .top-image img{
+  max-width: 500px;
+  width: 100%;
+    }
+    .about_company p {
+        font-size: 14.13px;
+        font-weight: 500;
+        line-height: 20.96px;
+        text-align: left;
+        color: #666C89;
+    }
+    .desc p {
+        font-size: 14.13px;
+        font-weight: 500;
+        line-height: 20.96px;
+        text-align: left;
+        color: #666C89;
+    }
+    .about_company h3 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 39.5px;
+        text-align: left;
+        color: #1F1F1F;
+        text-transform: capitalize;
+    }
+}
