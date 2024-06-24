@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../Button/Button";
 import Amount from "../Amount/Amount";
 import './AboutUs.css';
 
 function AboutUs() {
+  const [activeButton, setActiveButton] = useState(0);
+
+  const handleButtonClick = (index) => {
+    setActiveButton(index);
+  };
+
   return (
     <div id="aboutUs" className="aboutUs_wrapper">
       <div className="overall_info">
@@ -19,7 +25,7 @@ function AboutUs() {
         <div className="our_info">
           <div className="our_title">
             <img width={26} src="../../component.png" alt="component" />
-            <span >Biz Haqimizda</span>
+            <span>Biz Haqimizda</span>
           </div>
           <div className="about_company">
             <h3>Kompaniyamiz haqida umumiy ma'lumot</h3>
@@ -33,9 +39,21 @@ function AboutUs() {
             </p>
           </div>
           <div className="btn-group">
-            <Button btn_title='Kompaniya'  />
-            <Button btn_title='Hamkorlar' />
-            <Button btn_title='Jamoamiz' />
+            <Button
+              btn_title="Kompaniya"
+              onClick={() => handleButtonClick(0)}
+              isActive={activeButton === 0}
+            />
+            <Button
+              btn_title="Hamkorlar"
+              onClick={() => handleButtonClick(1)}
+              isActive={activeButton === 1}
+            />
+            <Button
+              btn_title="Jamoamiz"
+              onClick={() => handleButtonClick(2)}
+              isActive={activeButton === 2}
+            />
           </div>
           <div className="desc">
             <p>
@@ -50,12 +68,21 @@ function AboutUs() {
         </div>
       </div>
       <div className="amount_group">
-        <Amount wit={130} pic='../../yuz.png'
-          descr="Foydalanuvchilar va
-demodan foydalanganlar"
+        <Amount
+          wit={130}
+          pic='../../yuz.png'
+          descr="Foydalanuvchilar va demodan foydalanganlar"
         />
-        <Amount wit={101} pic='present.png' descr="Mijozlarimizdan qoniqish darajasi. " />
-        <Amount wit={74} pic='../../amount.png' descr="Ortacha mijozlar reytingi 5,00 dan!" />
+        <Amount
+          wit={101}
+          pic='present.png'
+          descr="Mijozlarimizdan qoniqish darajasi."
+        />
+        <Amount
+          wit={74}
+          pic='../../amount.png'
+          descr="Ortacha mijozlar reytingi 5,00 dan!"
+        />
       </div>
     </div>
   );

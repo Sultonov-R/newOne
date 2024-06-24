@@ -1,4 +1,4 @@
-.button-class .active {
+.button-class.active {
     width: 200px;
     background-color: #338A4A;
     color: #FFFFFF;
@@ -12,7 +12,9 @@
     cursor: pointer;
 
 }
-
+.button-class.active:hover{
+    background-color: #236033;
+}
 .button-class {
     width: 200px;
     background-color: #E8E8E8;
